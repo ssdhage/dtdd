@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dtdd",
+  "description": "Design-Test-Driven Development for AI coding agents — one component at a time, against its design.",
+  "owner": {
+    "name": "Swapnil Dhage"
+  },
+  "plugins": [
+    {
+      "name": "dtdd",
+      "description": "Maintained present-state design docs as the agent's enforced substrate: the DTDD conductor skill, component workers, an independent design-sync reviewer, a stamp-gated pre-commit hook, and a scaffolder.",
+      "source": "./",
+      "category": "workflow"
+    }
+  ]
+}
