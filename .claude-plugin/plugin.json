@@ -1,6 +1,6 @@
 {
   "name": "dtdd",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Design-Test-Driven Development for AI coding agents — one component at a time, against its design.",
   "author": {
     "name": "Swapnil Dhage"

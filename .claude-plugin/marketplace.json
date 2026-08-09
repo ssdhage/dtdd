@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "dtdd",
-      "description": "Maintained present-state design docs as the agent's enforced substrate: the DTDD conductor skill, component workers, an independent design-sync reviewer, a stamp-gated pre-commit hook, and a scaffolder.",
+      "description": "Maintained present-state design docs as the agent's enforced substrate: the Principal Orchestrator command, the DTDD conductor skill, component workers, an independent design-sync reviewer, a stamp-gated pre-commit hook, and a scaffolder.",
       "source": "./",
       "category": "workflow"
     }

@@ -130,10 +130,8 @@ propagate through every stage that follows before anyone notices.
 
 ## Status
 
-**This tier ships as documentation only in v1.** The pattern above is proven — a session
-performing this loop by hand, across a real multi-stage goal, is the worked example the pattern
-was extracted from — but the *working skill* (the `/dtdd-goal` command that runs this loop as an
-installable artifact) is not yet part of the export. It is built and exercised against real work
-first, in a private setting, and only ported into the public plugin once that use has shaken out
-its rough edges. See [`roadmap.md`](./roadmap.md) for what that means for v1 versus later
-versions.
+**This tier ships as a working command.** `/dtdd-goal <spec>` (`commands/dtdd-goal.md`) runs the
+pattern documented above: it reads the spec as the goal, decomposes it into stages, drives each
+implementation stage through one `/dtdd` invocation — absorbing its planning gate per the
+tier-aware gate model — dispatches an independent review over each stage's diff before its commit
+gate, and re-scopes between stages as they land. The commit gate still always reaches the human.
